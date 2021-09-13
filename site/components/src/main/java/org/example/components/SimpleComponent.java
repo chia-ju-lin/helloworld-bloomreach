@@ -23,6 +23,7 @@ public class SimpleComponent extends BaseHstComponent {
         if (document != null) {
             // Put the document on the request
             request.setAttribute("document", document);
+            //test for new branch
         }
     }
 }
